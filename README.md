@@ -1,12 +1,12 @@
 # Sign-up-page
 
-This is a Responsive Frontend of a sign up page developed using Html & CSS. Feel free to copy, get ideas, no copyright issues. 
+This is a Responsive Frontend of a sign-up page developed using Html & CSS. Feel free to copy, get ideas, no copyright issues. 
 
 ## Developed by
 > Nishkarsh Dubb
 
 ## Screenshots 📷
-![Website Screenshot](screenshots/1.png)
+![Website Screenshot](img/1.png)
 
 ## Live Demo 
 
@@ -23,7 +23,7 @@ This is a Responsive Frontend of a sign up page developed using Html & CSS. Feel
 Run the following command in the terminal:
 
 	git clone https://github.com/Nishkarsh01/Sign-up-page.git
-or download the zip file from github.
+or download the zip file from GitHub.
     
 
 ## Usage
