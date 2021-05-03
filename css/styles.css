@@ -1,0 +1,140 @@
+* {
+  /*
+  -May want to add "border-box for "box-sizing so padding does not affect width
+  -Reset margin and padding
+ */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6rem;
+}
+
+body {
+  /*
+    -Background color is #344a72
+  */
+  background: #344a72;
+}
+
+a {
+  /*
+  Underlined links are ugly :)
+ */
+  text-decoration: none;
+}
+
+#container {
+  /*
+  -Remember, margin: auto on left and right will center a block element
+  -I would also set a "max-width" for responsiveness
+  -May want to add some padding
+  */
+
+  max-width: 30vw;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.form-wrap {
+  /*
+    This is the white area around the form and heading, etc
+  */
+  background: #ffffff;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  /*
+    May want to center these
+  */
+  padding: 1rem 1rem 0.5rem 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+form {
+  padding: 10px 20px;
+}
+.form-wrap .form-group {
+  /*
+    Each label, input is wrapped in .form-group
+  */
+
+  color: grey;
+  margin-bottom: 1rem;
+}
+
+.form-wrap .form-group label {
+  /*
+    Label should be turned into a block element
+  */
+  display: block;
+}
+
+.form-wrap .form-group input {
+  /*
+    Inputs should reach accross the .form-wrap 100% and have some padding
+  */
+  width: 100%;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 5px;
+}
+
+.form-wrap button {
+  /*
+    Button should wrap accross 100% and display as block
+    Background color for button is #49c1a2
+  */
+
+  width: 100%;
+  background-color: #49c1a2;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-wrap button:hover {
+  /*
+    Hover background color for button is #37a08e
+  */
+  background-color: #37a08e;
+}
+
+.form-wrap .bottom-text {
+  /*
+    Bottom text is smaller
+  */
+  font-size: 13px;
+  font-weight: normal;
+}
+
+footer {
+  /*
+  Should be centered
+ */
+  padding-top: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer a {
+  /*
+    Footer link color is #49c1a2
+  */
+  color: #49c1a2;
+}
+
+@media (max-width: 1250px) {
+  #container {
+    max-width: 50vw;
+  }
+}
+
+@media (max-width: 600px) {
+  #container {
+    max-width: 70vw;
+  }
+}
